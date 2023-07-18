@@ -1,0 +1,169 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container
+{
+    padding: 0 20px;
+}
+
+
+h1,h2{
+    color: #162749;
+}
+
+h3{
+    color: rgb(255, 68, 0);
+}
+span{
+    color:#162749;
+}
+h4{
+    margin-top:20px;
+}
+/* header section start */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #162749;
+    padding: 10px;
+}
+
+header .brandLogo,a{
+    color: white;
+}
+
+.brandLogo::first-letter
+{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;    
+}
+
+.active
+{
+    border-bottom: 2px solid red;
+}
+
+a:hover
+{
+    border-bottom:2px solid red;
+}
+/* header section end */
+
+
+
+/* Heo section start */
+.hero 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+
+.hero .RightPart img{
+    width: 200px; 
+}
+
+.hero .LeftPart .title{
+    font-size: 2rem;
+    
+}
+
+.hero .LeftPart{
+    line-height: 1.5;
+
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #162749;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/* Heo section end */
+
+/* About section start */
+.about
+{   
+    margin-top: 10px;
+}
+
+
+.about p{
+margin-top: 10px;
+margin-left: 20px;
+}
+/* About section end */
+
+/* Skills section start */
+.skills
+{
+    margin-top: 30px;
+    
+    
+}
+
+.skill-icon
+{
+    width: 100px;
+}
+
+.skills-images
+{
+    margin-left: 20px;
+margin-top: 10px;
+
+}
+/* Skills section end */
+
+.projects
+{
+    margin-top: 10px;
+}
+
+.projects .RightPart img{
+ width: 300px;
+ border-radius: 5px;
+}
+
+.project1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    line-height: 1.5;;
+}
+.projects-container
+{
+    margin-left: 20px;
+}
+
+/* footer */
+
+footer{
+    
+    background-color: #162749;
+    text-align: center;
+    padding:50px;
+    color: white;
+}
